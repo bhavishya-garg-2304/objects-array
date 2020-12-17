@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>OBJECTS</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body class="body">
+    <p id="message"></p>
+
+    <form class="myForm">
+      <div class="space">
+        First Name:
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="Enter Your First Name"
+        />
+      </div>
+      <div class="space">
+        Last Name:
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="Enter Your Last Name"
+        />
+      </div>
+
+      <div class="space">
+        Age: <input type="text" name="age" id="age" placeholder="20" />
+      </div>
+
+      <div class="space">
+        Email:
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="xyz@gmail.com"
+        />
+      </div>
+
+      <div class="space">
+        <a onclick="formValidation();" class="validation">Submit</a>
+      </div>
+    </form>
+    <div class="container"></div>
+  </body>
+</html>
